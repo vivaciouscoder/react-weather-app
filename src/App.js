@@ -15,7 +15,7 @@ function App() {
             target="-blank"
             rel="noreferrer"
           >
-            Vida Mousavi{" "}
+            Viv Mousavi{" "}
           </a>
           and is{" "}
           <a
@@ -28,7 +28,7 @@ function App() {
           </a>
           and hosted on{" "}
           <a
-            href="https://app.netlify.com/start"
+            href="https://react-weather-app-byviv.netlify.app/"
             target="-blank"
             rel="noreferrer"
           >
