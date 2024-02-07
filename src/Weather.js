@@ -9,8 +9,9 @@ export default function Weather() {
           <div className="col-9">
             <input
               type="search"
-              className="form-control d-inline"
+              className="form-control w-100"
               placeholder="Enter a city..."
+              autoFocus="on"
             ></input>
           </div>
           <div className="col-3">
@@ -23,19 +24,25 @@ export default function Weather() {
         </div>
       </form>
       <h1>Berlin</h1>
-      <ul className="generalInformation">
+      <ul>
         <li>Monday 19:40</li>
         <li>Cloudy</li>
       </ul>
 
-      <div className="row text-start detailedInformation">
+      <div className="row">
         <div className="col-6">
-          <img
-            src="https://ssl.gstatic.com/onebox/weather/64/cloudy.png"
-            className="d-inline"
-            alt="weather icon"
-          ></img>{" "}
-          <h2 className="d-inline">10°C</h2>
+          <div className="clearfix">
+            <img
+              src="https://ssl.gstatic.com/onebox/weather/64/cloudy.png"
+              className="float-left img-icon "
+              alt="weather icon"
+            ></img>{" "}
+          </div>
+
+          <div className="float-left">
+            <span className="temperature">10</span>
+            <span className="unit">°C</span>
+          </div>
         </div>
         <div className="col-6">
           <ul>
