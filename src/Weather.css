@@ -36,14 +36,11 @@
   color: black;
   font-size: 64px;
   position: relative;
-  top: -80px;
-  left: -20px;
+  top: 40px;
 }
 
 .Weather .unit {
   color: black;
-
   position: relative;
-  top: -110px;
-  left: -20px;
+  top: 10px;
 }
