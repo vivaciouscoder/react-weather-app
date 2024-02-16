@@ -1,17 +1,17 @@
 import React from "react";
 
 export default function formattedDate(props) {
-  const hour = props.date.getHours();
+  let hour = props.date.getHours();
   if (hour < 10) {
     // eslint-disable-next-line
     hour = `0${hour}`;
   }
-  const minute = props.date.getMinutes();
+  let minute = props.date.getMinutes();
   if (minute < 10) {
     // eslint-disable-next-line
     minute = `0${minute}`;
   }
-  const days = [
+  let days = [
     "Sunday",
     "Monday",
     "Tuesday",
@@ -20,7 +20,7 @@ export default function formattedDate(props) {
     "Friday",
     "Saturday",
   ];
-  const day = days[props.date.getDay()];
+  let day = days[props.date.getDay()];
 
   return (
     <div>
