@@ -18,7 +18,7 @@ export default function WeatherInfo(props) {
         <div className="col-6">
           <ul className="d-flex justify-content-start">
             <li>
-              <WeatherIcon code={props.data.icon} />
+              <WeatherIcon code={props.data.icon} size={52} />
             </li>
             <li>
               <WeatherTemperature unit={props.data.temperature} />

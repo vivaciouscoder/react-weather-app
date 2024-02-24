@@ -47,3 +47,8 @@
   top: -30px;
   font-weight: 300;
 }
+
+.min-temp {
+  opacity: 0.6;
+  margin-left: 5px;
+}
