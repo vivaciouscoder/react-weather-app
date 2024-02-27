@@ -8,5 +8,6 @@ footer {
 
 a {
   text-decoration: none;
-  color: #e4ab29;
+  color: rgb(3, 171, 171);
+  font-weight: bold;
 }
