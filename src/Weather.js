@@ -50,12 +50,13 @@ export default function Weather(props) {
                 className="form-control w-100"
                 placeholder="Enter a city..."
                 autoFocus="on"
+                autoComplete="istanbul"
               ></input>
             </div>
             <div className="col-3">
               <input
                 type="submit"
-                className="btn btn-primary w-100"
+                className="btn btn-branding w-100"
                 value="Search"
               ></input>
             </div>

@@ -11,10 +11,11 @@
 }
 
 .Weather h1 {
-  font-size: 24px;
+  font-size: 34px;
+  color: #e4ab29;
 
   font-weight: 800;
-  margin: 20px 0 0;
+  margin: 20px 0 5px;
   line-height: 29px;
   text-align: left;
 }
@@ -51,4 +52,17 @@
 .min-temp {
   opacity: 0.6;
   margin-left: 5px;
+}
+
+.btn-branding {
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #e4ab29;
+  border-radius: 4px;
+}
+
+.btn-branding:hover {
+  background-color: #e4ab29;
+  color: #272142;
 }
